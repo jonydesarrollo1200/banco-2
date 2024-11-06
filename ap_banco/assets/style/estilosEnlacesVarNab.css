@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    text-align: center;
+}
+body {
+    background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0') no-repeat center center fixed; /* Fondo de noche con árboles */
+    background-size: cover;
+    color: #fff; /* Color del texto blanco para contraste */
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    text-shadow: 2px 2px 4px #000; /* Sombra para el texto */
+}
+
+.navbar, .bg-body-tertiary {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para contenido */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.btn-primary {
+    background-color: #333; /* Color gris oscuro para los botones */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #555; /* Color gris más claro para hover */
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6); /* Fondo negro semitransparente */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente para textos del carrusel */
+    padding: 10px;
+    border-radius: 5px;
+}
